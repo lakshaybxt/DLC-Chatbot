@@ -4,7 +4,7 @@ import { typeWriterEffect } from "./typerwriter.js";
   
 let isTemporary = false;
 
-const apiKey = "AIzaSyDXpL2_IeuK_8CBeMo6OQgSto6IbgUZP00";
+const apiKey = "${API_KEY}";
 
 typeWriterEffect();
 
