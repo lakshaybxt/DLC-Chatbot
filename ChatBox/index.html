@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DLC ChatBox</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<header class="container">
+		<div class="left-container">
+			<div class="history">
+				<img src="utils/history.svg">
+			</div>
+			<div class="newChat js-newChat">
+				<a href="index.html">
+					<img src="utils/newChat.svg">
+				</a>
+			</div>
+			<div class="refresh" onclick="location.reload()">
+				<a href="index.html">
+					<img src="utils/refresh.svg">
+				</a>
+			</div>
+		</div>
+
+    <div class="Benaam">DLC Chat AI🤖 </div>
+
+		<div class="right-contatiner">
+			<button class="temporary">
+				<img src="utils/temporary.svg">
+				<span>Temporary</span>
+			</button>
+			</div>
+		</div>
+
+	</header>
+
+  <div class="main-container">
+    <div class="chat">
+      <div class="chat-container">
+        <div class="user-query preview">
+          hello
+        </div>
+        <div class="ai-response preview-two">
+          Your Digital Assistant is here!!
+        </div>
+      </div>
+    </div>
+    <span class="message"></span>
+    <h2 id="typewriter"></h2>
+  </div>
+	
+
+	<footer class="search-footer">
+    <div class="search-box">
+      <textarea id="query" placeholder="Ask Anything"></textarea>
+      <div>
+        <button class="search-button">
+          <img src="utils/submit.svg">
+        </button>
+      </div>
+    </div>
+    <div class="foot-div">© 2025 Benaam AI — Type. Laugh. Repeat.</div>
+  </footer>
+  
+  <script type="module" src="script.js"></script>
+</body>
+</html>
